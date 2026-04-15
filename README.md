@@ -173,7 +173,7 @@ Nguyen Hong, P. (2026). Appearance and Constraint: Behavioural Homomorphism, Env
 
 ```bibtex
 @misc{nguyenhong2026appearance,
-  author    = {Nguy{\~{\^e}}n H{\`{\^o}}ng, P.},
+  author    = {Nguy{\~{\^e}}n, H. P.},
   title     = {Appearance and Constraint: Behavioural Homomorphism, Environmental
                Stratification, and the Flow of Uninitiated Obligation in
                Speculative Markets},
