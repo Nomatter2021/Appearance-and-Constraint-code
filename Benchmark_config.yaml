@@ -1,0 +1,2414 @@
+sectors:
+  Healthcare:
+    description: SME Companies (<$2B) extracted from Finviz (sec_healthcare)
+    companies:
+    - ticker: AARD
+      cik: 0001774857
+      name: Aardvark Therapeutics, Inc.
+    - ticker: ABCL
+      cik: '0001703057'
+      name: AbCellera Biologics Inc.
+    - ticker: ABEO
+      cik: 0000318306
+      name: ABEONA THERAPEUTICS INC.
+    - ticker: ABOS
+      cik: 0001576885
+      name: Acumen Pharmaceuticals, Inc.
+    - ticker: ABSI
+      cik: 0001672688
+      name: Absci Corp
+    - ticker: ABUS
+      cik: 0001447028
+      name: Arbutus Biopharma Corp
+    - ticker: ABVC
+      cik: '0001173313'
+      name: ABVC BIOPHARMA, INC.
+    - ticker: ACB
+      cik: 0001683541
+      name: AURORA CANNABIS INC
+    - ticker: ACET
+      cik: 0001720580
+      name: Adicet Bio, Inc.
+    - ticker: ACHV
+      cik: 0000949858
+      name: ACHIEVE LIFE SCIENCES, INC.
+    - ticker: ACIU
+      cik: '0001651625'
+      name: AC Immune SA
+    - ticker: ACOG
+      cik: 0001655923
+      name: Alpha Cognition Inc.
+    - ticker: ACON
+      cik: '0001635077'
+      name: Aclarion, Inc.
+    - ticker: ACRS
+      cik: '0001557746'
+      name: Aclaris Therapeutics, Inc.
+    - ticker: ACRV
+      cik: 0001781174
+      name: Acrivon Therapeutics, Inc.
+    - ticker: ACTU
+      cik: 0001652935
+      name: ACTUATE THERAPEUTICS, INC.
+    - ticker: ACXP
+      cik: '0001736243'
+      name: Acurx Pharmaceuticals, Inc.
+    - ticker: ADAG
+      cik: 0001818838
+      name: Adagene Inc.
+    - ticker: ADCT
+      cik: 0001771910
+      name: ADC Therapeutics SA
+    - ticker: ADGM
+      cik: 0002006986
+      name: Adagio Medical Holdings, Inc.
+    - ticker: ADIL
+      cik: '0001513525'
+      name: ADIAL PHARMACEUTICALS, INC.
+    - ticker: ADPT
+      cik: 0001478320
+      name: Adaptive Biotechnologies Corp
+    - ticker: ADTX
+      cik: '0001726711'
+      name: Aditxt, Inc.
+    - ticker: ADUS
+      cik: 0001468328
+      name: Addus HomeCare Corp
+    - ticker: ADVB
+      cik: 0001941029
+      name: Advanced Biomed Inc.
+    - ticker: ADXN
+      cik: '0001574232'
+      name: Addex Therapeutics Ltd.
+    - ticker: AEMD
+      cik: 0000882291
+      name: AETHLON MEDICAL INC
+    - ticker: AEON
+      cik: 0001837607
+      name: AEON Biopharma, Inc.
+    - ticker: AGEN
+      cik: 0001098972
+      name: AGENUS INC
+    - ticker: AGIO
+      cik: 0001439222
+      name: AGIOS PHARMACEUTICALS, INC.
+    - ticker: AGL
+      cik: 0001831097
+      name: agilon health, inc.
+    - ticker: AGMB
+      cik: 0002020932
+      name: Agomab Therapeutics NV
+    - ticker: AHCO
+      cik: '0001725255'
+      name: AdaptHealth Corp.
+    - ticker: AHG
+      cik: 0001702318
+      name: Akso Health Group
+    - ticker: AIDX
+      cik: 0001139685
+      name: 20/20 Biolabs, Inc.
+    - ticker: AIM
+      cik: 0000946644
+      name: AIM ImmunoTech Inc.
+    - ticker: AIRS
+      cik: 0001870940
+      name: Airsculpt Technologies, Inc.
+    - ticker: AKAN
+      cik: 0001888014
+      name: AKANDA CORP.
+    - ticker: AKBA
+      cik: '0001517022'
+      name: Akebia Therapeutics, Inc.
+    - ticker: AKTS
+      cik: 0002035832
+      name: Aktis Oncology, Inc.
+    - ticker: AKTX
+      cik: '0001541157'
+      name: Akari Therapeutics Plc
+    - ticker: ALDX
+      cik: '0001341235'
+      name: Aldeyra Therapeutics, Inc.
+    - ticker: ALEC
+      cik: 0001653087
+      name: Alector, Inc.
+    - ticker: ALGS
+      cik: 0001799448
+      name: Aligos Therapeutics, Inc.
+    - ticker: ALLO
+      cik: 0001737287
+      name: Allogene Therapeutics, Inc.
+    - ticker: ALLR
+      cik: 0001860657
+      name: Allarity Therapeutics, Inc.
+    - ticker: ALPS
+      cik: '0002025774'
+      name: Alps Group Inc
+    - ticker: ALT
+      cik: 0001326190
+      name: Altimmune, Inc.
+    - ticker: ALVO
+      cik: 0001898416
+      name: Alvotech
+    - ticker: ALXO
+      cik: 0001810182
+      name: ALX ONCOLOGY HOLDINGS INC
+    - ticker: ALZN
+      cik: '0001677077'
+      name: Alzamend Neuro, Inc.
+    - ticker: AMIX
+      cik: 0001617867
+      name: Autonomix Medical, Inc.
+    - ticker: AMLX
+      cik: 0001658551
+      name: Amylyx Pharmaceuticals, Inc.
+    - ticker: AMN
+      cik: '0001142750'
+      name: AMN HEALTHCARE SERVICES INC
+    - ticker: AMPH
+      cik: 0001297184
+      name: Amphastar Pharmaceuticals, Inc.
+    - ticker: AMRN
+      cik: 0000897448
+      name: AMARIN CORP PLCUK
+    - ticker: AMS
+      cik: 0000744825
+      name: AMERICAN SHARED HOSPITAL SERVICES
+    - ticker: AMWL
+      cik: 0001393584
+      name: American Well Corp
+    - ticker: ANGO
+      cik: 0001275187
+      name: ANGIODYNAMICS INC
+    - ticker: ANIK
+      cik: 0000898437
+      name: Anika Therapeutics, Inc.
+    - ticker: ANIP
+      cik: '0001023024'
+      name: ANI PHARMACEUTICALS INC
+    - ticker: ANIX
+      cik: '0000715446'
+      name: Anixa Biosciences Inc
+    - ticker: ANL
+      cik: 0001944552
+      name: Adlai Nortye Ltd.
+    - ticker: ANNX
+      cik: 0001528115
+      name: Annexon, Inc.
+    - ticker: ANRO
+      cik: 0001999480
+      name: Alto Neuroscience, Inc.
+    - ticker: ANTX
+      cik: 0001880438
+      name: AN2 Therapeutics, Inc.
+    - ticker: ANVS
+      cik: 0001477845
+      name: Annovis Bio, Inc.
+    - ticker: AORT
+      cik: 0000784199
+      name: ARTIVION, INC.
+    - ticker: APLM
+      cik: 0001944885
+      name: Apollomics Inc.
+    - ticker: APRE
+      cik: 0001781983
+      name: Aprea Therapeutics, Inc.
+    - ticker: APUS
+      cik: 0001894525
+      name: Apimeds Pharmaceuticals US, Inc.
+    - ticker: APVO
+      cik: 0001671584
+      name: Aptevo Therapeutics Inc.
+    - ticker: APYX
+      cik: 0000719135
+      name: Apyx Medical Corp
+    - ticker: AQST
+      cik: 0001398733
+      name: Aquestive Therapeutics, Inc.
+    - ticker: ARAY
+      cik: 0001138723
+      name: ACCURAY INC
+    - ticker: ARCT
+      cik: 0001768224
+      name: Arcturus Therapeutics Holdings Inc.
+    - ticker: ARDT
+      cik: '0001756655'
+      name: Ardent Health, Inc.
+    - ticker: ARDX
+      cik: '0001437402'
+      name: ARDELYX, INC.
+    - ticker: ARMP
+      cik: 0000921114
+      name: Armata Pharmaceuticals, Inc.
+    - ticker: ARTL
+      cik: '0001621221'
+      name: ARTELO BIOSCIENCES, INC.
+    - ticker: ARTV
+      cik: 0001817241
+      name: Artiva Biotherapeutics, Inc.
+    - ticker: ARVN
+      cik: 0001655759
+      name: ARVINAS, INC.
+    - ticker: ASBP
+      cik: 0001847345
+      name: Aspire Biopharma Holdings, Inc.
+    - ticker: ASMB
+      cik: 0001426800
+      name: ASSEMBLY BIOSCIENCES, INC.
+    - ticker: ASRT
+      cik: 0001808665
+      name: Assertio Holdings, Inc.
+    - ticker: ASTH
+      cik: 0001083446
+      name: Astrana Health, Inc.
+    - ticker: ATAI
+      cik: 0001840904
+      name: Atai Beckley N.V.
+    - ticker: ATEC
+      cik: '0001350653'
+      name: Alphatec Holdings, Inc.
+    - ticker: ATHE
+      cik: '0001131343'
+      name: ALTERITY THERAPEUTICS LTD
+    - ticker: ATNM
+      cik: 0001388320
+      name: Actinium Pharmaceuticals, Inc.
+    - ticker: ATOS
+      cik: 0001488039
+      name: ATOSSA THERAPEUTICS, INC.
+    - ticker: ATRA
+      cik: '0001604464'
+      name: Atara Biotherapeutics, Inc.
+    - ticker: ATRC
+      cik: 0001323885
+      name: AtriCure, Inc.
+    - ticker: ATYR
+      cik: 0001339970
+      name: aTYR PHARMA INC
+    - ticker: AUNA
+      cik: 0001799207
+      name: AUNA S.A.
+    - ticker: AURA
+      cik: 0001501796
+      name: Aura Biosciences, Inc.
+    - ticker: AUTL
+      cik: '0001730463'
+      name: Autolus Therapeutics plc
+    - ticker: AVAH
+      cik: 0001832332
+      name: Aveanna Healthcare Holdings, Inc.
+    - ticker: AVBP
+      cik: 0001868279
+      name: ArriVent BioPharma, Inc.
+    - ticker: AVIR
+      cik: 0001593899
+      name: Atea Pharmaceuticals, Inc.
+    - ticker: AVNS
+      cik: 0001606498
+      name: AVANOS MEDICAL, INC.
+    - ticker: AVR
+      cik: '0002011514'
+      name: Anteris Technologies Global Corp.
+    - ticker: AVTX
+      cik: '0001534120'
+      name: Avalo Therapeutics, Inc.
+    - ticker: AVXL
+      cik: '0001314052'
+      name: ANAVEX LIFE SCIENCES CORP.
+    - ticker: AXGN
+      cik: 0000805928
+      name: Axogen, Inc.
+    - ticker: AYTU
+      cik: 0001385818
+      name: AYTU BIOPHARMA, INC
+    - ticker: AZTR
+      cik: 0001701478
+      name: Azitra, Inc.
+    - ticker: BBLG
+      cik: 0001419554
+      name: Bone Biologics Corp
+    - ticker: BBNX
+      cik: '0001674632'
+      name: Beta Bionics, Inc.
+    - ticker: BBOT
+      cik: 0001869105
+      name: BridgeBio Oncology Therapeutics, Inc.
+    - ticker: BCAB
+      cik: 0001826892
+      name: BioAtla, Inc.
+    - ticker: BCAX
+      cik: 0002023658
+      name: Bicara Therapeutics Inc.
+    - ticker: BCDA
+      cik: 0000925741
+      name: BioCardia, Inc.
+    - ticker: BCTX
+      cik: 0001610820
+      name: BriaCell Therapeutics Corp.
+    - ticker: BCYC
+      cik: '0001761612'
+      name: BICYCLE THERAPEUTICS PLC
+    - ticker: BDMD
+      cik: 0001982444
+      name: Baird Medical Investment Holdings Ltd
+    - ticker: BDRX
+      cik: 0001643918
+      name: Biodexa Pharmaceuticals Plc
+    - ticker: BDSX
+      cik: 0001439725
+      name: BIODESIX INC
+    - ticker: BDTX
+      cik: '0001701541'
+      name: Black Diamond Therapeutics, Inc.
+    - ticker: BEAT
+      cik: 0001779372
+      name: HeartBeam, Inc.
+    - ticker: BFLY
+      cik: 0001804176
+      name: Butterfly Network, Inc.
+    - ticker: BFRG
+      cik: 0001829247
+      name: BullFrog AI Holdings, Inc.
+    - ticker: BFRI
+      cik: 0001858685
+      name: Biofrontera Inc.
+    - ticker: BGM
+      cik: 0001779578
+      name: BGM Group Ltd.
+    - ticker: BGMS
+      cik: '0001130166'
+      name: Bio Green Med Solution, Inc.
+    - ticker: BHVN
+      cik: 0001935979
+      name: Biohaven Ltd.
+    - ticker: BIAF
+      cik: '0001712762'
+      name: bioAffinity Technologies, Inc.
+    - ticker: BIOA
+      cik: 0001709941
+      name: BioAge Labs, Inc.
+    - ticker: BIVI
+      cik: 0001580149
+      name: BIOVIE INC.
+    - ticker: BJDX
+      cik: 0001704287
+      name: Bluejay Diagnostics, Inc.
+    - ticker: BLFS
+      cik: 0000834365
+      name: BIOLIFE SOLUTIONS INC
+    - ticker: BLRX
+      cik: 0001498403
+      name: BioLineRx Ltd.
+    - ticker: BMEA
+      cik: 0001840439
+      name: Biomea Fusion, Inc.
+    - ticker: BMGL
+      cik: 0002004489
+      name: Basel Medical Group Ltd
+    - ticker: BMRA
+      cik: 0000073290
+      name: BIOMERICA INC
+    - ticker: BNR
+      cik: 0001792267
+      name: Burning Rock Biotech Ltd
+    - ticker: BNTC
+      cik: 0001808898
+      name: Benitec Biopharma Inc.
+    - ticker: BOLD
+      cik: 0001782303
+      name: Boundless Bio, Inc.
+    - ticker: BOLT
+      cik: 0001641281
+      name: Bolt Biotherapeutics, Inc.
+    - ticker: BRNS
+      cik: 0001828185
+      name: Barinthus Biotherapeutics plc.
+    - ticker: BRTX
+      cik: 0001505497
+      name: BioRestorative Therapies, Inc.
+    - ticker: BTAI
+      cik: 0001720893
+      name: BioXcel Therapeutics, Inc.
+    - ticker: BTMD
+      cik: 0001819253
+      name: biote Corp.
+    - ticker: BVS
+      cik: 0001665988
+      name: Bioventus Inc.
+    - ticker: BWAY
+      cik: '0001505065'
+      name: Brainsway Ltd.
+    - ticker: BYSI
+      cik: 0001677940
+      name: BeyondSpring Inc.
+    - ticker: CABA
+      cik: 0001759138
+      name: Cabaletta Bio, Inc.
+    - ticker: CADL
+      cik: 0001841387
+      name: Candel Therapeutics, Inc.
+    - ticker: CALC
+      cik: '0001534133'
+      name: CalciMedica, Inc.
+    - ticker: CAMP
+      cik: '0001736730'
+      name: Camp4 Therapeutics Corp
+    - ticker: CANF
+      cik: 0001536196
+      name: Can-Fite BioPharma Ltd.
+    - ticker: CAPR
+      cik: 0001133869
+      name: CAPRICOR THERAPEUTICS, INC.
+    - ticker: CARL
+      cik: 0001794546
+      name: CARLSMED, INC.
+    - ticker: CATX
+      cik: 0000728387
+      name: Perspective Therapeutics, Inc.
+    - ticker: CBIO
+      cik: 0001253689
+      name: CRESCENT BIOPHARMA, INC.
+    - ticker: CBLL
+      cik: 0001861107
+      name: Ceribell, Inc.
+    - ticker: CCCC
+      cik: 0001662579
+      name: C4 Therapeutics, Inc.
+    - ticker: CCEL
+      cik: 0000862692
+      name: CRYO CELL INTERNATIONAL INC
+    - ticker: CCLD
+      cik: 0001582982
+      name: CareCloud, Inc.
+    - ticker: CCM
+      cik: '0001472072'
+      name: Concord Medical Services Holdings Ltd
+    - ticker: CCRN
+      cik: '0001141103'
+      name: CROSS COUNTRY HEALTHCARE INC
+    - ticker: CDIO
+      cik: 0001870144
+      name: Cardio Diagnostics Holdings, Inc.
+    - ticker: CDNA
+      cik: '0001217234'
+      name: CareDx, Inc.
+    - ticker: CDT
+      cik: 0001896212
+      name: CDT Equity Inc.
+    - ticker: CELU
+      cik: 0001752828
+      name: Celularity Inc
+    - ticker: CELZ
+      cik: 0001187953
+      name: CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.
+    - ticker: CERS
+      cik: '0001020214'
+      name: CERUS CORP
+    - ticker: CERT
+      cik: 0001827090
+      name: Certara, Inc.
+    - ticker: CGC
+      cik: 0001737927
+      name: Canopy Growth Corp
+    - ticker: CGEM
+      cik: 0001789972
+      name: Cullinan Therapeutics, Inc.
+    - ticker: CGEN
+      cik: 0001119774
+      name: COMPUGEN LTD
+    - ticker: CGTX
+      cik: '0001455365'
+      name: COGNITION THERAPEUTICS INC
+    - ticker: CHRS
+      cik: '0001512762'
+      name: Coherus Oncology, Inc.
+    - ticker: CING
+      cik: 0001862150
+      name: Cingulate Inc.
+    - ticker: CLDI
+      cik: 0001855485
+      name: Calidi Biotherapeutics, Inc.
+    - ticker: CLGN
+      cik: 0001631487
+      name: CollPlant Biotechnologies Ltd
+    - ticker: CLLS
+      cik: 0001627281
+      name: Cellectis S.A.
+    - ticker: CLNN
+      cik: 0001822791
+      name: Clene Inc.
+    - ticker: CLOV
+      cik: 0001801170
+      name: CLOVER HEALTH INVESTMENTS, CORP. /DE
+    - ticker: CLPT
+      cik: 0001285550
+      name: ClearPoint Neuro, Inc.
+    - ticker: CLRB
+      cik: 0001279704
+      name: Cellectar Biosciences, Inc.
+    - ticker: CLYM
+      cik: 0001768446
+      name: Climb Bio, Inc.
+    - ticker: CMMB
+      cik: 0001534248
+      name: Chemomab Therapeutics Ltd.
+    - ticker: CMND
+      cik: 0001892500
+      name: Clearmind Medicine Inc.
+    - ticker: CMPS
+      cik: 0001816590
+      name: COMPASS Pathways plc
+    - ticker: CMPX
+      cik: 0001738021
+      name: Compass Therapeutics, Inc.
+    - ticker: CNMD
+      cik: 0000816956
+      name: CONMED Corp
+    - ticker: CNSP
+      cik: 0001729427
+      name: CNS Pharmaceuticals, Inc.
+    - ticker: CNTB
+      cik: 0001835268
+      name: Connect Biopharma Holdings Ltd
+    - ticker: CNTN
+      cik: 0001861657
+      name: Canton Strategic Holdings, Inc.
+    - ticker: CNTX
+      cik: 0001842952
+      name: Context Therapeutics Inc.
+    - ticker: COCH
+      cik: 0001840877
+      name: Envoy Medical, Inc.
+    - ticker: COCP
+      cik: 0001412486
+      name: Cocrystal Pharma, Inc.
+    - ticker: CODX
+      cik: 0001692415
+      name: Co-Diagnostics, Inc.
+    - ticker: COEP
+      cik: 0001759186
+      name: Coeptis Therapeutics Holdings, Inc.
+    - ticker: COLL
+      cik: '0001267565'
+      name: COLLEGIUM PHARMACEUTICAL, INC
+    - ticker: COYA
+      cik: 0001835022
+      name: Coya Therapeutics, Inc.
+    - ticker: CPHI
+      cik: '0001106644'
+      name: CHINA PHARMA HOLDINGS, INC.
+    - ticker: CPIX
+      cik: 0001087294
+      name: CUMBERLAND PHARMACEUTICALS INC
+    - ticker: CRBP
+      cik: 0001595097
+      name: Corbus Pharmaceuticals Holdings, Inc.
+  Financial:
+    description: SME Companies (<$2B) extracted from Finviz (sec_financial)
+    companies:
+    - ticker: AACB
+      cik: '0002034334'
+      name: Artius II Acquisition Inc.
+    - ticker: AACI
+      cik: 0002092897
+      name: Armada Acquisition Corp. III
+    - ticker: AAME
+      cik: 0000008177
+      name: ATLANTIC AMERICAN CORP
+    - ticker: ABTC
+      cik: 0001755953
+      name: American Bitcoin Corp.
+    - ticker: ABTS
+      cik: 0001864055
+      name: Abits Group Inc
+    - ticker: ABX
+      cik: 0001814287
+      name: Abacus Global Management, Inc.
+    - ticker: ACIC
+      cik: '0001401521'
+      name: AMERICAN COASTAL INSURANCE Corp
+    - ticker: ACNB
+      cik: 0000715579
+      name: ACNB CORP
+    - ticker: ADAC
+      cik: 0002083002
+      name: American Drive Acquisition Co
+    - ticker: AEAQ
+      cik: 0002083689
+      name: Activate Energy Acquisition Corp.
+    - ticker: AEXA
+      cik: 0002079173
+      name: American Exceptionalism Acquisition Corp. A
+    - ticker: AFBI
+      cik: 0001823406
+      name: Affinity Bancshares, Inc.
+    - ticker: AFJK
+      cik: 0001979005
+      name: Aimei Health Technology Co., Ltd.
+    - ticker: AGBK
+      cik: 0002081206
+      name: AGI Inc
+    - ticker: AGM
+      cik: 0000845877
+      name: FEDERAL AGRICULTURAL MORTGAGE CORP
+    - ticker: AIFU
+      cik: 0001413855
+      name: AIFU Inc.
+    - ticker: AII
+      cik: 0002007587
+      name: American Integrity Insurance Group, Inc.
+    - ticker: AIIA
+      cik: '0002073553'
+      name: AI Infrastructure Acquisition Corp.
+    - ticker: ALCY
+      cik: 0001901336
+      name: Alchemy Investments Acquisition Corp 1
+    - ticker: ALDF
+      cik: '0002031561'
+      name: Aldel Financial II Inc.
+    - ticker: ALF
+      cik: 0002010930
+      name: Centurion Acquisition Corp.
+    - ticker: ALIS
+      cik: '0002026767'
+      name: Calisa Acquisition Corp
+    - ticker: ALOV
+      cik: 0002083989
+      name: Aldabra 4 Liquidity Opportunity Vehicle, Inc.
+    - ticker: ALRS
+      cik: 0000903419
+      name: ALERUS FINANCIAL CORP
+    - ticker: ALTI
+      cik: 0001838615
+      name: AlTi Global, Inc.
+    - ticker: ALUB
+      cik: 0002041493
+      name: Alussa Energy Acquisition Corp. II
+    - ticker: AMAL
+      cik: 0001823608
+      name: Amalgamated Financial Corp.
+    - ticker: AMSF
+      cik: 0001018979
+      name: AMERISAFE INC
+    - ticker: AMTB
+      cik: '0001734342'
+      name: Amerant Bancorp Inc.
+    - ticker: AMTD
+      cik: 0001769731
+      name: AMTD IDEA GROUP
+    - ticker: ANSC
+      cik: 0001854149
+      name: Agriculture & Natural Solutions Acquisition Corp
+    - ticker: ANTA
+      cik: '0002044255'
+      name: Antalpha Platform Holding Co
+    - ticker: ANY
+      cik: 0001591956
+      name: Sphere 3D Corp.
+    - ticker: APAC
+      cik: '0002043630'
+      name: StoneBridge Acquisition II Corp
+    - ticker: APAD
+      cik: 0001956439
+      name: AParadise Acquisition Corp.
+    - ticker: APXT
+      cik: 0002079253
+      name: Apex Treasury Corp
+    - ticker: ARBK
+      cik: 0001841675
+      name: Argo Blockchain Plc
+    - ticker: ARCI
+      cik: 0002083910
+      name: Archimedes Tech SPAC Partners III Co.
+    - ticker: AROW
+      cik: 0000717538
+      name: ARROW FINANCIAL CORP
+    - ticker: ARTC
+      cik: 0002086545
+      name: Art Technology Acquisition Corp.
+    - ticker: ASIC
+      cik: 0002040491
+      name: Ategrity Specialty Insurance Co Holdings
+    - ticker: ASPC
+      cik: 0001890361
+      name: ASPAC III Acquisition Corp.
+    - ticker: ASRV
+      cik: '0000707605'
+      name: AMERISERV FINANCIAL INC /PA/
+    - ticker: ASST
+      cik: 0001920406
+      name: Strive, Inc.
+    - ticker: ATCH
+      cik: 0001963088
+      name: AtlasClear Holdings, Inc.
+    - ticker: ATII
+      cik: 0002028516
+      name: Archimedes Tech SPAC Partners II Co.
+    - ticker: ATLO
+      cik: '0001132651'
+      name: AMES NATIONAL CORP
+    - ticker: ATON
+      cik: 0001095435
+      name: AlphaTON Capital Corp
+    - ticker: AUBN
+      cik: '0000750574'
+      name: AUBURN NATIONAL BANCORPORATION, INC
+    - ticker: AURE
+      cik: 0001765850
+      name: Aurelion Inc.
+    - ticker: AVAL
+      cik: '0001504764'
+      name: Grupo Aval Acciones Y Valores S.A.
+    - ticker: AVBC
+      cik: 0002058758
+      name: Avidia Bancorp, Inc.
+    - ticker: AVBH
+      cik: '0001443575'
+      name: Avidbank Holdings, Inc.
+    - ticker: AVX
+      cik: 0001826397
+      name: AVAX ONE TECHNOLOGY LTD.
+    - ticker: AXG
+      cik: 0001959224
+      name: Solowin Holdings, Ltd.
+    - ticker: AXIN
+      cik: '0002057030'
+      name: Axiom Intelligence Acquisition Corp 1
+    - ticker: BACC
+      cik: 0002059654
+      name: Blue Acquisition Corp/Cayman
+    - ticker: BAFN
+      cik: 0001649739
+      name: BayFirst Financial Corp.
+    - ticker: BAYA
+      cik: 0001969475
+      name: Bayview Acquisition Corp
+    - ticker: BBCQ
+      cik: 0002088295
+      name: Bleichroeder Acquisition Corp. II
+    - ticker: BCAL
+      cik: 0001795815
+      name: California BanCorp \ CA
+    - ticker: BCAR
+      cik: 0002065779
+      name: D. Boral ARC Acquisition I Corp.
+    - ticker: BCBP
+      cik: 0001228454
+      name: BCB BANCORP INC
+    - ticker: BCG
+      cik: 0001953984
+      name: Binah Capital Group, Inc.
+    - ticker: BCML
+      cik: 0001730984
+      name: BayCom Corp
+    - ticker: BCSS
+      cik: '0002064355'
+      name: Bain Capital GSS Investment Corp.
+    - ticker: BDCI
+      cik: 0002042292
+      name: BTC Development Corp.
+    - ticker: BEAG
+      cik: 0001852207
+      name: Bold Eagle Acquisition Corp.
+    - ticker: BEBE
+      cik: 0002079933
+      name: TGE Value Creative Solutions Corp
+    - ticker: BENF
+      cik: '0001775734'
+      name: Beneficient
+    - ticker: BETR
+      cik: 0001835856
+      name: Better Home & Finance Holding Co
+    - ticker: BFC
+      cik: 0001746109
+      name: Bank First Corp
+    - ticker: BFST
+      cik: '0001624322'
+      name: Business First Bancshares, Inc.
+    - ticker: BHB
+      cik: '0000743367'
+      name: BAR HARBOR BANKSHARES
+    - ticker: BHRB
+      cik: 0001964333
+      name: Burke & Herbert Financial Services Corp.
+    - ticker: BIII
+      cik: 0002087087
+      name: Black Spade Acquisition III Co
+    - ticker: BITF
+      cik: 0001812477
+      name: Bitfarms Ltd
+    - ticker: BIXI
+      cik: 0002082542
+      name: Bitcoin Infrastructure Acquisition Corp Ltd
+    - ticker: BKHA
+      cik: '0002000775'
+      name: Black Hawk Acquisition Corp
+    - ticker: BLFY
+      cik: 0001846017
+      name: Blue Foundry Bancorp
+    - ticker: BLNE
+      cik: 0001534708
+      name: Beeline Holdings, Inc.
+    - ticker: BLRK
+      cik: 0002081532
+      name: Bluerock Acquisition Corp.
+    - ticker: BLUW
+      cik: '0002050501'
+      name: Blue Water Acquisition Corp. III
+    - ticker: BLX
+      cik: 0000890541
+      name: FOREIGN TRADE BANK OF LATIN AMERICA, INC.
+    - ticker: BLZR
+      cik: '0002075310'
+      name: Trailblazer Acquisition Corp.
+    - ticker: BMHL
+      cik: 0002027815
+      name: Bluemount Holdings Ltd
+    - ticker: BMRC
+      cik: '0001403475'
+      name: Bank of Marin Bancorp
+    - ticker: BNBX
+      cik: '0000744452'
+      name: BNB PLUS CORP.
+    - ticker: BOTJ
+      cik: '0001275101'
+      name: BANK OF THE JAMES FINANCIAL GROUP INC
+    - ticker: BOW
+      cik: '0002002473'
+      name: Bowhead Specialty Holdings Inc.
+    - ticker: BPAC
+      cik: '0002064177'
+      name: Blueport Acquisition Ltd
+    - ticker: BPRN
+      cik: 0001913971
+      name: Princeton Bancorp, Inc.
+    - ticker: BRBS
+      cik: 0000842717
+      name: BLUE RIDGE BANKSHARES, INC.
+    - ticker: BRR
+      cik: '0002076163'
+      name: ProCap Financial, Inc.
+    - ticker: BSAA
+      cik: 0002051587
+      name: BEST SPAC I Acquisition Corp.
+    - ticker: BSBK
+      cik: 0001787414
+      name: Bogota Financial Corp.
+    - ticker: BSRR
+      cik: '0001130144'
+      name: SIERRA BANCORP
+    - ticker: BSVN
+      cik: 0001746129
+      name: Bank7 Corp.
+    - ticker: BTBT
+      cik: '0001710350'
+      name: Bit Digital, Inc
+    - ticker: BTCS
+      cik: 0001436229
+      name: BTCS Inc.
+    - ticker: BTGO
+      cik: '0001740604'
+      name: BITGO HOLDINGS, INC.
+    - ticker: BTM
+      cik: 0001901799
+      name: Bitcoin Depot Inc.
+    - ticker: BTOG
+      cik: '0001735556'
+      name: BIT ORIGIN Ltd
+    - ticker: BUR
+      cik: '0001714174'
+      name: Burford Capital Ltd
+    - ticker: BVFL
+      cik: 0001302387
+      name: BV Financial, Inc.
+    - ticker: BWB
+      cik: '0001341317'
+      name: Bridgewater Bancshares Inc
+    - ticker: BWFG
+      cik: '0001505732'
+      name: Bankwell Financial Group, Inc.
+    - ticker: BY
+      cik: '0001702750'
+      name: BYLINE BANCORP, INC.
+    - ticker: BYFC
+      cik: '0001001171'
+      name: BROADWAY FINANCIAL CORP \DE\
+    - ticker: CAC
+      cik: 0000750686
+      name: CAMDEN NATIONAL CORP
+    - ticker: CAEP
+      cik: 0002034268
+      name: Cantor Equity Partners III, Inc.
+    - ticker: CANG
+      cik: '0001725123'
+      name: Cango Inc.
+    - ticker: CAPN
+      cik: '0002024203'
+      name: Cayson Acquisition Corp
+    - ticker: CAQ
+      cik: '0002100125'
+      name: Cambridge Acquisition Corp.
+    - ticker: CARE
+      cik: 0001829576
+      name: Carter Bankshares, Inc.
+    - ticker: CBAN
+      cik: 0000711669
+      name: COLONY BANKCORP INC
+    - ticker: CBFV
+      cik: '0001605301'
+      name: CB Financial Services, Inc.
+    - ticker: CBK
+      cik: 0001981546
+      name: Commercial Bancgroup, Inc.
+    - ticker: CBNA
+      cik: 0001392272
+      name: CHAIN BRIDGE BANCORP INC
+    - ticker: CBNK
+      cik: 0001419536
+      name: Capital Bancorp Inc
+    - ticker: CCB
+      cik: 0001437958
+      name: COASTAL FINANCIAL CORP
+    - ticker: CCBG
+      cik: '0000726601'
+      name: CAPITAL CITY BANK GROUP INC
+    - ticker: CCII
+      cik: 0002064683
+      name: Cohen Circle Acquisition Corp. II
+    - ticker: CCIX
+      cik: 0002006291
+      name: Churchill Capital Corp IX/Cayman
+    - ticker: CCNE
+      cik: '0000736772'
+      name: CNB FINANCIAL CORP/PA
+    - ticker: CCXI
+      cik: 0002074973
+      name: Churchill Capital Corp XI
+    - ticker: CD
+      cik: '0001527762'
+      name: Chaince Digital Holdings Inc.
+    - ticker: CEPF
+      cik: '0002034267'
+      name: Cantor Equity Partners IV, Inc.
+    - ticker: CEPO
+      cik: 0002027708
+      name: Cantor Equity Partners I, Inc.
+    - ticker: CEPS
+      cik: 0002089536
+      name: Cantor Equity Partners VI, Inc.
+    - ticker: CEPT
+      cik: 0002034269
+      name: Cantor Equity Partners II, Inc.
+    - ticker: CEPV
+      cik: '0002034266'
+      name: Cantor Equity Partners V, Inc.
+    - ticker: CFBK
+      cik: 0001070680
+      name: CF BANKSHARES INC.
+    - ticker: CFFI
+      cik: 0000913341
+      name: C & F FINANCIAL CORP
+    - ticker: CFFN
+      cik: 0001490906
+      name: Capitol Federal Financial, Inc.
+    - ticker: CHAR
+      cik: 0002024459
+      name: Charlton Aria Acquisition Corp
+    - ticker: CHCO
+      cik: 0000726854
+      name: CITY HOLDING CO
+    - ticker: CHEC
+      cik: '0002047177'
+      name: Chenghe Acquisition III Co.
+    - ticker: CHMG
+      cik: '0000763563'
+      name: CHEMUNG FINANCIAL CORP
+    - ticker: CHPG
+      cik: '0002024460'
+      name: ChampionsGate Acquisition Corp
+    - ticker: CIA
+      cik: 0000024090
+      name: CITIZENS, INC.
+    - ticker: CIVB
+      cik: 0000944745
+      name: CIVISTA BANCSHARES, INC.
+    - ticker: CLBK
+      cik: 0001723596
+      name: Columbia Financial, Inc.
+    - ticker: CLBR
+      cik: 0002091024
+      name: Colombier Acquisition Corp. III
+    - ticker: CLST
+      cik: 0001849867
+      name: Catalyst Bancorp, Inc.
+    - ticker: CMII
+      cik: 0002088805
+      name: Columbus Circle Capital Corp II
+    - ticker: CMTV
+      cik: 0000718413
+      name: COMMUNITY BANCORP /VT
+    - ticker: CNCK
+      cik: 0001913847
+      name: Coincheck Group N.V.
+    - ticker: CNF
+      cik: 0001733868
+      name: CNFinance Holdings Ltd.
+    - ticker: CNOB
+      cik: '0000712771'
+      name: ConnectOne Bancorp, Inc.
+    - ticker: COFS
+      cik: 0000803164
+      name: CHOICEONE FINANCIAL SERVICES INC
+    - ticker: COHN
+      cik: '0001270436'
+      name: Cohen & Co Inc.
+    - ticker: COLA
+      cik: 0002028201
+      name: Columbus Acquisition Corp/Cayman Islands
+    - ticker: COPL
+      cik: '0002045473'
+      name: Copley Acquisition Corp
+    - ticker: COSO
+      cik: 0001297107
+      name: CoastalSouth Bancshares, Inc.
+    - ticker: CPBI
+      cik: 0001979332
+      name: Central Plains Bancshares, Inc.
+    - ticker: CPF
+      cik: '0000701347'
+      name: CENTRAL PACIFIC FINANCIAL CORP
+    - ticker: CPSS
+      cik: 0000889609
+      name: CONSUMER PORTFOLIO SERVICES, INC.
+    - ticker: CRAC
+      cik: 0002070887
+      name: Crown Reserve Acquisition Corp. I
+    - ticker: CRAN
+      cik: 0002081358
+      name: Crane Harbor Acquisition Corp. II
+    - ticker: CRAQ
+      cik: 0002058359
+      name: Cal Redwood Acquisition Corp.
+    - ticker: CTBI
+      cik: 0000350852
+      name: COMMUNITY TRUST BANCORP INC /KY/
+    - ticker: CUB
+      cik: 0002015955
+      name: Lionheart Holdings
+    - ticker: CWBC
+      cik: '0001127371'
+      name: Community West Bancshares
+    - ticker: CWD
+      cik: 0001627282
+      name: CaliberCos Inc.
+    - ticker: CZFS
+      cik: 0000739421
+      name: CITIZENS FINANCIAL SERVICES INC
+    - ticker: CZNC
+      cik: 0000810958
+      name: CITIZENS & NORTHERN CORP
+    - ticker: CZWI
+      cik: 0001367859
+      name: Citizens Community Bancorp Inc.
+    - ticker: DAAQ
+      cik: '0002052162'
+      name: Digital Asset Acquisition Corp.
+    - ticker: DBCA
+      cik: 0002095161
+      name: D. Boral Acquisition I Corp.
+    - ticker: DCOM
+      cik: 0000846617
+      name: Dime Community Bancshares, Inc. /NY/
+    - ticker: DEFT
+      cik: 0001888274
+      name: Defi Technologies, Inc.
+    - ticker: DFDV
+      cik: 0001805526
+      name: DeFi Development Corp.
+    - ticker: DGICA
+      cik: 0000800457
+      name: DONEGAL GROUP INC
+    - ticker: DHIL
+      cik: 0000909108
+      name: DIAMOND HILL INVESTMENT GROUP INC
+    - ticker: DMAA
+      cik: 0002028614
+      name: Drugs Made In America Acquisition Corp.
+    - ticker: DMII
+      cik: '0002040475'
+      name: Drugs Made In America Acquisition II Corp.
+    - ticker: DNMX
+      cik: 0002081125
+      name: Dynamix Corp III
+    - ticker: DOMH
+      cik: 0000012239
+      name: Dominari Holdings Inc.
+    - ticker: DRDB
+      cik: 0002032528
+      name: Roman DBDR Acquisition Corp. II
+    - ticker: DSAC
+      cik: 0002082149
+      name: Daedalus Special Acquisition Corp.
+    - ticker: DTCX
+      cik: 0001853825
+      name: Datacentrex, Inc.
+    - ticker: DTSQ
+      cik: 0002017950
+      name: DT Cloud Star Acquisition Corp
+    - ticker: DXF
+      cik: 0001499494
+      name: Eason Technology Ltd
+    - ticker: DYOR
+      cik: 0002079292
+      name: Insight Digital Partners II
+    - ticker: EARN
+      cik: '0001560672'
+      name: Ellington Credit Co
+    - ticker: EBMT
+      cik: 0001478454
+      name: Eagle Bancorp Montana, Inc.
+    - ticker: ECBK
+      cik: 0001914605
+      name: ECB Bancorp, Inc. /MD/
+    - ticker: ECPG
+      cik: 0001084961
+      name: ENCORE CAPITAL GROUP INC
+    - ticker: EFSI
+      cik: 0000880641
+      name: EAGLE FINANCIAL SERVICES INC
+    - ticker: EGBN
+      cik: '0001050441'
+      name: EAGLE BANCORP INC
+    - ticker: EGHA
+      cik: '0002052547'
+      name: EGH Acquisition Corp.
+    - ticker: EHTH
+      cik: 0001333493
+      name: eHealth, Inc.
+    - ticker: EIG
+      cik: 0001379041
+      name: Employers Holdings, Inc.
+    - ticker: EMIS
+      cik: 0002075816
+      name: Emmis Acquisition Corp.
+    - ticker: EQBK
+      cik: '0001227500'
+      name: EQUITY BANCSHARES INC
+    - ticker: ESHA
+      cik: 0001918661
+      name: ESH Acquisition Corp.
+    - ticker: ESQ
+      cik: '0001531031'
+      name: Esquire Financial Holdings, Inc.
+    - ticker: ETHM
+      cik: 0002028699
+      name: Dynamix Corp
+    - ticker: EURK
+      cik: '0002000410'
+      name: Eureka Acquisition Corp
+  Technology:
+    description: SME Companies (<$2B) extracted from Finviz (sec_technology)
+    companies:
+    - ticker: ACFN
+      cik: 0000880984
+      name: ACORN ENERGY, INC.
+    - ticker: AEYE
+      cik: 0001362190
+      name: AUDIOEYE INC
+    - ticker: AGMH
+      cik: '0001705402'
+      name: AGM GROUP HOLDINGS, INC.
+    - ticker: AGPU
+      cik: 0001446159
+      name: Axe Compute Inc.
+    - ticker: AGYS
+      cik: 0000078749
+      name: AGILYSYS INC
+    - ticker: AI
+      cik: '0001577526'
+      name: C3.ai, Inc.
+    - ticker: AIB
+      cik: '0002070542'
+      name: BlockchAIn Digital Infrastructure, Inc.
+    - ticker: AIFF
+      cik: 0000803578
+      name: FIREFLY NEUROSCIENCE, INC.
+    - ticker: AIMD
+      cik: '0001014763'
+      name: Ainos, Inc.
+    - ticker: AIP
+      cik: '0001667011'
+      name: Arteris, Inc.
+    - ticker: AISP
+      cik: 0001842566
+      name: Airship AI Holdings, Inc.
+    - ticker: AIXC
+      cik: '0001460702'
+      name: AIxCrypto Holdings, Inc.
+    - ticker: AIXI
+      cik: 0001935172
+      name: Xiao-I Corp
+    - ticker: ALAR
+      cik: '0001725332'
+      name: Alarum Technologies Ltd.
+    - ticker: ALIT
+      cik: 0001809104
+      name: Alight, Inc. / Delaware
+    - ticker: ALKT
+      cik: 0001529274
+      name: ALKAMI TECHNOLOGY, INC.
+    - ticker: ALLT
+      cik: '0001365767'
+      name: Allot Ltd.
+    - ticker: ALMU
+      cik: 0001828805
+      name: Aeluma, Inc.
+    - ticker: ALOT
+      cik: 0000008146
+      name: AstroNova, Inc.
+    - ticker: ALTS
+      cik: 0000862861
+      name: ALT5 Sigma Corp
+    - ticker: AMBQ
+      cik: '0001500412'
+      name: Ambiq Micro, Inc.
+    - ticker: AMBR
+      cik: 0001697818
+      name: Amber International Holding Ltd
+    - ticker: AMOD
+      cik: 0001862463
+      name: ALPHA MODUS HOLDINGS, INC.
+    - ticker: AMPL
+      cik: 0001866692
+      name: Amplitude, Inc.
+    - ticker: AMST
+      cik: 0001807166
+      name: Amesite Inc.
+    - ticker: AOSL
+      cik: 0001387467
+      name: ALPHA & OMEGA SEMICONDUCTOR Ltd
+    - ticker: API
+      cik: 0001802883
+      name: Agora, Inc.
+    - ticker: APPN
+      cik: 0001441683
+      name: APPIAN CORP
+    - ticker: APPS
+      cik: 0000317788
+      name: Digital Turbine, Inc.
+    - ticker: ARAI
+      cik: 0001818274
+      name: Arrive AI Inc.
+    - ticker: ARBB
+      cik: 0001930179
+      name: ARB IOT Group Ltd
+    - ticker: ARBE
+      cik: 0001861841
+      name: Arbe Robotics Ltd.
+    - ticker: ARQQ
+      cik: 0001859690
+      name: Arqit Quantum Inc.
+    - ticker: ARRY
+      cik: 0001820721
+      name: Array Technologies, Inc.
+    - ticker: ASAN
+      cik: '0001477720'
+      name: Asana, Inc.
+    - ticker: ASGN
+      cik: 0000890564
+      name: ASGN Inc
+    - ticker: ASTI
+      cik: '0001350102'
+      name: Ascent Solar Technologies, Inc.
+    - ticker: ASUR
+      cik: 0000884144
+      name: ASURE SOFTWARE INC
+    - ticker: ATEN
+      cik: 0001580808
+      name: A10 Networks, Inc.
+    - ticker: ATGL
+      cik: 0001967621
+      name: Alpha Technology Group Ltd
+    - ticker: ATHR
+      cik: '0002026353'
+      name: Aether Holdings, Inc.
+    - ticker: ATOM
+      cik: '0001420520'
+      name: Atomera Inc
+    - ticker: AUID
+      cik: '0001534154'
+      name: authID Inc.
+    - ticker: AUUD
+      cik: 0001554818
+      name: AUDDIA INC.
+    - ticker: AVPT
+      cik: 0001777921
+      name: AvePoint, Inc.
+    - ticker: AWRE
+      cik: 0001015739
+      name: AWARE INC /MA/
+    - ticker: BAND
+      cik: '0001514416'
+      name: Bandwidth Inc.
+    - ticker: BBAI
+      cik: 0001836981
+      name: BigBear.ai Holdings, Inc.
+    - ticker: BGIN
+      cik: 0001945565
+      name: BGIN BLOCKCHAIN Ltd
+    - ticker: BIYA
+      cik: 0001944712
+      name: Baiya International Group Inc.
+    - ticker: BKKT
+      cik: 0001820302
+      name: Bakkt, Inc.
+    - ticker: BL
+      cik: '0001666134'
+      name: BLACKLINE, INC.
+    - ticker: BLIN
+      cik: 0001378590
+      name: Bridgeline Digital, Inc.
+    - ticker: BLIV
+      cik: 0001982448
+      name: BeLive Holdings
+    - ticker: BLKB
+      cik: 0001280058
+      name: BLACKBAUD INC
+    - ticker: BLND
+      cik: 0001855747
+      name: Blend Labs, Inc.
+    - ticker: BLZE
+      cik: '0001462056'
+      name: Backblaze, Inc.
+    - ticker: BMR
+      cik: 0001899005
+      name: Beamr Imaging Ltd.
+    - ticker: BNAI
+      cik: 0001838163
+      name: Brand Engagement Network Inc.
+    - ticker: BNZI
+      cik: 0001826011
+      name: Banzai International, Inc.
+    - ticker: BOSC
+      cik: '0001005516'
+      name: BOS BETTER ONLINE SOLUTIONS LTD
+    - ticker: BOXL
+      cik: '0001624512'
+      name: Boxlight Corp
+    - ticker: BRAI
+      cik: 0002076975
+      name: Braiin Ltd
+    - ticker: BTCT
+      cik: 0001796514
+      name: BTC Digital Ltd.
+    - ticker: BTQ
+      cik: 0001821866
+      name: BTQ Technologies Corp.
+    - ticker: BTTC
+      cik: '0002034400'
+      name: Black Titan Corp
+    - ticker: BVC
+      cik: 0001785680
+      name: BitVentures Ltd
+    - ticker: BZAI
+      cik: 0001871638
+      name: Blaize Holdings, Inc.
+    - ticker: CAN
+      cik: 0001780652
+      name: Canaan Inc.
+    - ticker: CCSI
+      cik: 0001866633
+      name: Consensus Cloud Solutions, Inc.
+    - ticker: CETX
+      cik: '0001435064'
+      name: CEMTREX INC
+    - ticker: CEVA
+      cik: 0001173489
+      name: CEVA INC
+    - ticker: CGNT
+      cik: 0001824814
+      name: Cognyte Software Ltd.
+    - ticker: CHOW
+      cik: 0002041829
+      name: ChowChow Cloud International Holdings Ltd
+    - ticker: CINT
+      cik: 0001868995
+      name: CI&T Inc
+    - ticker: CISO
+      cik: 0001777319
+      name: CISO Global, Inc.
+    - ticker: CLPS
+      cik: '0001724542'
+      name: CLPS Inc
+    - ticker: CLVT
+      cik: '0001764046'
+      name: CLARIVATE PLC
+    - ticker: CMRC
+      cik: '0001626450'
+      name: Commerce.com, Inc.
+    - ticker: CNDT
+      cik: '0001677703'
+      name: CONDUENT Inc
+    - ticker: CNXC
+      cik: 0001803599
+      name: Concentrix Corp
+    - ticker: CREX
+      cik: 0001356093
+      name: CREATIVE REALITIES, INC.
+    - ticker: CRNC
+      cik: 0001768267
+      name: Cerence Inc.
+    - ticker: CRSR
+      cik: 0001743759
+      name: Corsair Gaming, Inc.
+    - ticker: CSAI
+      cik: 0001709628
+      name: CLOUDASTRUCTURE, INC.
+    - ticker: CSIQ
+      cik: 0001375877
+      name: Canadian Solar Inc.
+    - ticker: CSPI
+      cik: '0000356037'
+      name: CSP INC /MA/
+    - ticker: CTLP
+      cik: 0000896429
+      name: CANTALOUPE, INC.
+    - ticker: CTM
+      cik: 0001877939
+      name: Castellum, Inc.
+    - ticker: CTS
+      cik: 0000026058
+      name: CTS CORP
+    - ticker: CURR
+      cik: 0001862935
+      name: Currenc Group Inc.
+    - ticker: CXAI
+      cik: 0001820875
+      name: CXApp Inc.
+    - ticker: CXM
+      cik: 0001569345
+      name: Sprinklr, Inc.
+    - ticker: CYAB
+      cik: '0002032341'
+      name: CYABRA, INC.
+    - ticker: CYCU
+      cik: 0001868419
+      name: Cycurion, Inc.
+    - ticker: CYN
+      cik: 0001874097
+      name: Cyngn Inc.
+    - ticker: DAIC
+      cik: '0002033770'
+      name: CID Holdco, Inc.
+    - ticker: DAVA
+      cik: 0001656081
+      name: Endava plc
+    - ticker: DCBO
+      cik: 0001829959
+      name: Docebo Inc.
+    - ticker: DDD
+      cik: 0000910638
+      name: 3D SYSTEMS CORP
+    - ticker: DFIN
+      cik: 0001669811
+      name: Donnelley Financial Solutions, Inc.
+    - ticker: DHX
+      cik: 0001393883
+      name: DHI GROUP, INC.
+    - ticker: DMRC
+      cik: 0001438231
+      name: Digimarc CORP
+    - ticker: DOMO
+      cik: 0001505952
+      name: DOMO, INC.
+    - ticker: DQ
+      cik: '0001477641'
+      name: DAQO NEW ENERGY CORP.
+    - ticker: DSP
+      cik: 0001828791
+      name: Viant Technology Inc.
+    - ticker: DTSS
+      cik: 0001631282
+      name: DATASEA INC.
+    - ticker: DTST
+      cik: 0001419951
+      name: Data Storage Corp
+    - ticker: DUOT
+      cik: 0001396536
+      name: DUOS TECHNOLOGIES GROUP, INC.
+    - ticker: DVLT
+      cik: 0001682149
+      name: Datavault AI Inc.
+    - ticker: DXC
+      cik: 0001688568
+      name: DXC Technology Co
+    - ticker: EBON
+      cik: 0001799290
+      name: Ebang International Holdings Inc.
+    - ticker: EGAN
+      cik: 0001066194
+      name: EGAIN Corp
+    - ticker: EGHT
+      cik: '0001023731'
+      name: 8X8 INC /DE/
+    - ticker: ELTK
+      cik: '0001024672'
+      name: ELTEK LTD
+    - ticker: EVCM
+      cik: 0001853145
+      name: EverCommerce Inc.
+    - ticker: EVTC
+      cik: 0001559865
+      name: EVERTEC, Inc.
+    - ticker: EXFY
+      cik: 0001476840
+      name: Expensify, Inc.
+    - ticker: EXOD
+      cik: 0001821534
+      name: Exodus Movement, Inc.
+    - ticker: FATN
+      cik: 0001993400
+      name: Fatpipe Inc/UT
+    - ticker: FIVN
+      cik: 0001288847
+      name: Five9, Inc.
+    - ticker: FLYW
+      cik: 0001580560
+      name: Flywire Corp
+    - ticker: FORTY
+      cik: 0001045986
+      name: FORMULA SYSTEMS (1985) LTD
+    - ticker: FOXX
+      cik: 0002013807
+      name: Foxx Development Holdings Inc.
+    - ticker: FRMM
+      cik: 0001690080
+      name: FORUM MARKETS Inc
+    - ticker: FTCI
+      cik: 0001828161
+      name: FTC Solar, Inc.
+    - ticker: FTFT
+      cik: 0001066923
+      name: Future FinTech Group Inc.
+    - ticker: FUSE
+      cik: 0002033383
+      name: Fusemachines Inc.
+    - ticker: GCTS
+      cik: 0001851961
+      name: GCT Semiconductor Holding, Inc.
+    - ticker: GDYN
+      cik: '0001743725'
+      name: GRID DYNAMICS HOLDINGS, INC.
+    - ticker: GGRP
+      cik: 0001854445
+      name: Glimpse Group, Inc.
+    - ticker: GLE
+      cik: 0001908705
+      name: Global Engine Group Holding Ltd
+    - ticker: GLOB
+      cik: 0001557860
+      name: Globant S.A.
+    - ticker: GLOO
+      cik: 0002069785
+      name: Gloo Holdings, Inc.
+    - ticker: GMM
+      cik: 0001913749
+      name: Global Mofy AI Ltd
+    - ticker: GOAI
+      cik: 0001983736
+      name: Eva Live Inc
+    - ticker: GRRR
+      cik: 0001903145
+      name: Gorilla Technology Group Inc.
+    - ticker: GSIT
+      cik: '0001126741'
+      name: GSI TECHNOLOGY INC
+    - ticker: GTM
+      cik: 0001794515
+      name: ZoomInfo Technologies Inc.
+    - ticker: HCKT
+      cik: 0001057379
+      name: HACKETT GROUP, INC.
+    - ticker: HIMX
+      cik: 0001342338
+      name: Himax Technologies, Inc.
+    - ticker: HIT
+      cik: 0002019505
+      name: Health In Tech, Inc.
+    - ticker: HKD
+      cik: 0001809691
+      name: AMTD Digital Inc.
+    - ticker: HKIT
+      cik: '0001742341'
+      name: HiTek Global Inc.
+    - ticker: HOLO
+      cik: 0001841209
+      name: MicroCloud Hologram Inc.
+    - ticker: HPAI
+      cik: 0002001699
+      name: Helport AI Ltd
+    - ticker: HQ
+      cik: 0002088256
+      name: Horizon Quantum Holdings Ltd.
+    - ticker: HTCR
+      cik: 0001892322
+      name: HeartCore Enterprises, Inc.
+    - ticker: HUBC
+      cik: 0001905660
+      name: Hub Cyber Security Ltd.
+    - ticker: IBEX
+      cik: '0001720420'
+      name: IBEX Ltd
+    - ticker: IBTA
+      cik: 0001538379
+      name: Ibotta, Inc.
+    - ticker: ICG
+      cik: 0001895597
+      name: Intchains Group Ltd
+    - ticker: ICHR
+      cik: '0001652535'
+      name: ICHOR HOLDINGS, LTD.
+    - ticker: IDAI
+      cik: 0001718939
+      name: T Stamp Inc
+    - ticker: IDN
+      cik: 0001040896
+      name: Intellicheck, Inc.
+    - ticker: IFBD
+      cik: 0001815566
+      name: Infobird Co., Ltd
+    - ticker: III
+      cik: 0001371489
+      name: Information Services Group Inc.
+    - ticker: IIIV
+      cik: 0001728688
+      name: i3 Verticals, Inc.
+    - ticker: IMMR
+      cik: 0001058811
+      name: IMMERSION CORP
+    - ticker: IMOS
+      cik: '0001123134'
+      name: CHIPMOS TECHNOLOGIES INC
+    - ticker: IMXI
+      cik: 0001683695
+      name: International Money Express, Inc.
+    - ticker: INDI
+      cik: 0001841925
+      name: indie Semiconductor, Inc.
+    - ticker: INLX
+      cik: 0001081745
+      name: INTELLINETICS, INC.
+    - ticker: INOD
+      cik: 0000903651
+      name: INNODATA INC
+    - ticker: INTA
+      cik: 0001565687
+      name: Intapp, Inc.
+    - ticker: INTZ
+      cik: '0000736012'
+      name: INTRUSION INC
+    - ticker: INUV
+      cik: 0000829323
+      name: Inuvo, Inc.
+    - ticker: IPM
+      cik: 0001355839
+      name: INTELLIGENT PROTECTION MANAGEMENT CORP.
+    - ticker: IPWR
+      cik: 0001507957
+      name: Ideal Power Inc.
+    - ticker: JDZG
+      cik: 0001976908
+      name: JIADE Ltd
+    - ticker: JFU
+      cik: 0001619544
+      name: 9F Inc.
+    - ticker: JG
+      cik: 0001737339
+      name: Aurora Mobile Ltd
+    - ticker: JKS
+      cik: 0001481513
+      name: JinkoSolar Holding Co., Ltd.
+    - ticker: JZ
+      cik: 0001852440
+      name: Jianzhi Education Technology Group Co Ltd
+    - ticker: KARO
+      cik: 0001828102
+      name: Karooooo Ltd.
+    - ticker: KDK
+      cik: 0001853138
+      name: Kodiak AI, Inc.
+    - ticker: KLTR
+      cik: '0001432133'
+      name: KALTURA INC
+    - ticker: KOPN
+      cik: '0000771266'
+      name: KOPIN CORP
+    - ticker: KPLT
+      cik: 0001785424
+      name: Katapult Holdings, Inc.
+    - ticker: KTCC
+      cik: 0000719733
+      name: KEY TRONIC CORP
+    - ticker: KULR
+      cik: 0001662684
+      name: KULR Technology Group, Inc.
+    - ticker: LAES
+      cik: 0001951222
+      name: SEALSQ Corp
+    - ticker: LAW
+      cik: '0001625641'
+      name: CS Disco, Inc.
+    - ticker: LEDS
+      cik: 0001333822
+      name: SemiLEDs Corp
+    - ticker: LGCL
+      cik: 0001954694
+      name: Lucas GC Ltd
+    - ticker: LGL
+      cik: '0000061004'
+      name: LGL GROUP INC
+    - ticker: LHSW
+      cik: '0002004024'
+      name: Lianhe Sowell International Group Ltd
+    - ticker: LINK
+      cik: 0000828146
+      name: INTERLINK ELECTRONICS INC
+    - ticker: LPSN
+      cik: 0001102993
+      name: LIVEPERSON INC
+    - ticker: LPTH
+      cik: 0000889971
+      name: LIGHTPATH TECHNOLOGIES INC
+    - ticker: LSAK
+      cik: '0001041514'
+      name: LESAKA TECHNOLOGIES INC
+    - ticker: LSPD
+      cik: 0001823306
+      name: Lightspeed Commerce Inc.
+    - ticker: LTRX
+      cik: 0001114925
+      name: LANTRONIX INC
+    - ticker: LZMH
+      cik: 0001967397
+      name: LZ Technology Holdings Ltd
+    - ticker: MAPS
+      cik: 0001779474
+      name: WM TECHNOLOGY, INC.
+    - ticker: MASK
+      cik: 0001993097
+      name: 3 E Network Technology Group Ltd
+    - ticker: MAXN
+      cik: 0001796898
+      name: Maxeon Solar Technologies, Ltd.
+    - ticker: MEI
+      cik: '0000065270'
+      name: METHODE ELECTRONICS INC
+    - ticker: MFI
+      cik: 0001940941
+      name: mF International Ltd
+    - ticker: MGRT
+      cik: '0002033377'
+      name: Mega Fortune Co Ltd
+  Services:
+    description: SME Companies (<$2B) extracted from Finviz (sec_communicationservices,
+      sec_industrials)
+    companies:
+    - ticker: ACCS
+      cik: 0000843006
+      name: ACCESS Newswire Inc.
+    - ticker: ADV
+      cik: '0001776661'
+      name: Advantage Solutions Inc.
+    - ticker: AGAE
+      cik: 0001708341
+      name: Allied Gaming & Entertainment Inc.
+    - ticker: AMC
+      cik: 0001411579
+      name: AMC ENTERTAINMENT HOLDINGS, INC.
+    - ticker: ANGI
+      cik: '0001705110'
+      name: Angi Inc.
+    - ticker: ANGX
+      cik: 0001865200
+      name: Angel Studios, Inc.
+    - ticker: BAOS
+      cik: 0001811216
+      name: Baosheng Media Group Holdings Ltd
+    - ticker: BMBL
+      cik: 0001830043
+      name: Bumble Inc.
+    - ticker: CARS
+      cik: 0001683606
+      name: Cars.com Inc.
+    - ticker: CAST
+      cik: 0001633369
+      name: FreeCast, Inc.
+    - ticker: CCG
+      cik: 0001965473
+      name: Cheche Group Inc.
+    - ticker: CCO
+      cik: 0001334978
+      name: Clear Channel Outdoor Holdings, Inc.
+    - ticker: CDLX
+      cik: '0001666071'
+      name: Cardlytics, Inc.
+    - ticker: CHR
+      cik: 0001738758
+      name: Cheer Holding, Inc.
+    - ticker: CMCM
+      cik: 0001597835
+      name: Cheetah Mobile Inc.
+    - ticker: CNET
+      cik: '0001376321'
+      name: ZW Data Action Technologies Inc.
+    - ticker: CNVS
+      cik: '0001173204'
+      name: Cineverse Corp.
+    - ticker: CPOP
+      cik: 0001807389
+      name: Pop Culture Group Co., Ltd
+    - ticker: CRTO
+      cik: '0001576427'
+      name: Criteo S.A.
+    - ticker: CTW
+      cik: 0002047148
+      name: CTW Cayman
+    - ticker: CURI
+      cik: 0001776909
+      name: CuriosityStream Inc.
+    - ticker: DDI
+      cik: 0001799567
+      name: DoubleDown Interactive Co., Ltd.
+    - ticker: DKI
+      cik: 0002058584
+      name: DarkIris Inc.
+    - ticker: DLPN
+      cik: 0001282224
+      name: Dolphin Entertainment, Inc.
+    - ticker: DOYU
+      cik: '0001762417'
+      name: DouYu International Holdings Ltd
+    - ticker: DRCT
+      cik: 0001880613
+      name: Direct Digital Holdings, Inc.
+    - ticker: DV
+      cik: 0001819928
+      name: DoubleVerify Holdings, Inc.
+    - ticker: EEX
+      cik: 0001579214
+      name: Emerald Holding, Inc.
+    - ticker: EVER
+      cik: 0001640428
+      name: EverQuote, Inc.
+    - ticker: FLNT
+      cik: 0001460329
+      name: Fluent, Inc.
+    - ticker: FNGR
+      cik: 0001602409
+      name: FingerMotion, Inc.
+    - ticker: FTRK
+      cik: '0002027262'
+      name: Fast Track Group
+    - ticker: FUBO
+      cik: 0001484769
+      name: FuboTV Inc.
+    - ticker: FVRR
+      cik: '0001762301'
+      name: Fiverr International Ltd.
+    - ticker: GAIA
+      cik: 0001089872
+      name: GAIA, INC
+    - ticker: GAME
+      cik: '0001714562'
+      name: GameSquare Holdings, Inc.
+    - ticker: GCL
+      cik: '0002002045'
+      name: GCL Global Holdings Ltd
+    - ticker: GDEV
+      cik: 0001848739
+      name: GDEV Inc.
+    - ticker: GENI
+      cik: 0001834489
+      name: Genius Sports Ltd
+    - ticker: GETY
+      cik: 0001898496
+      name: Getty Images Holdings, Inc.
+    - ticker: GIBO
+      cik: '0002034520'
+      name: GIBO HOLDINGS Ltd
+    - ticker: GIGM
+      cik: '0001105101'
+      name: GIGAMEDIA Ltd
+    - ticker: GITS
+      cik: 0001911545
+      name: Global Interactive Technologies, Inc.
+    - ticker: GMHS
+      cik: '0002000530'
+      name: Gamehaus Holdings Inc.
+    - ticker: GRPN
+      cik: 0001490281
+      name: Groupon, Inc.
+    - ticker: GRVY
+      cik: '0001313310'
+      name: GRAVITY Co., Ltd.
+    - ticker: GXAI
+      cik: 0001895618
+      name: GAXOS.AI INC.
+    - ticker: HAO
+      cik: 0001954594
+      name: Haoxi Health Technology Ltd
+    - ticker: HUYA
+      cik: 0001728190
+      name: HUYA Inc.
+    - ticker: IQ
+      cik: 0001722608
+      name: iQIYI, Inc.
+    - ticker: IZEA
+      cik: 0001495231
+      name: IZEA Worldwide, Inc.
+    - ticker: JFIN
+      cik: '0001743102'
+      name: Jiayin Group Inc.
+    - ticker: KRKR
+      cik: 0001779476
+      name: 36Kr Holdings Inc.
+    - ticker: KWM
+      cik: '0002000756'
+      name: K Wave Media Ltd.
+    - ticker: LCFY
+      cik: 0001875547
+      name: Locafy Ltd
+    - ticker: LFS
+      cik: '0002030277'
+      name: LEIFRAS Co., Ltd.
+    - ticker: MAX
+      cik: 0001818383
+      name: MediaAlpha, Inc.
+    - ticker: MCHX
+      cik: '0001224133'
+      name: MARCHEX INC
+    - ticker: MCS
+      cik: '0000062234'
+      name: MARCUS CORP
+    - ticker: MGNI
+      cik: 0001595974
+      name: MAGNITE, INC.
+    - ticker: MNY
+      cik: 0001974044
+      name: MoneyHero Ltd
+    - ticker: MOMO
+      cik: '0001610601'
+      name: Hello Group Inc.
+    - ticker: MPU
+      cik: 0001953021
+      name: Mega Matrix Inc
+    - ticker: MRDN
+      cik: 0001437925
+      name: Meridian Holdings Inc./NV
+    - ticker: MSGM
+      cik: 0001821175
+      name: Motorsport Games Inc.
+    - ticker: MYPS
+      cik: 0001823878
+      name: PLAYSTUDIOS, Inc.
+    - ticker: NAMI
+      cik: 0001967631
+      name: Jinxin Technology Holding Co
+    - ticker: NCMI
+      cik: '0001377630'
+      name: National CineMedia, Inc.
+    - ticker: NEXN
+      cik: 0001849396
+      name: Nexxen International Ltd.
+    - ticker: NIPG
+      cik: 0001966233
+      name: NIP Group Inc.
+    - ticker: NRDS
+      cik: 0001625278
+      name: NERDWALLET, INC.
+    - ticker: NXDR
+      cik: 0001846069
+      name: Nextdoor Holdings, Inc.
+    - ticker: ONFO
+      cik: 0001825452
+      name: Onfolio Holdings, Inc
+    - ticker: OPRA
+      cik: '0001737450'
+      name: Opera Ltd
+    - ticker: PERI
+      cik: 0001338940
+      name: Perion Network Ltd.
+    - ticker: PLTK
+      cik: 0001828016
+      name: Playtika Holding Corp.
+    - ticker: PODC
+      cik: 0001940177
+      name: PodcastOne, Inc.
+    - ticker: QNST
+      cik: 0001117297
+      name: QUINSTREET, INC
+    - ticker: RDCM
+      cik: 0001016838
+      name: RADCOM LTD
+    - ticker: RDI
+      cik: '0000716634'
+      name: READING INTERNATIONAL INC
+    - ticker: RSVR
+      cik: 0001824403
+      name: Reservoir Media, Inc.
+    - ticker: SEAT
+      cik: 0001856031
+      name: Vivid Seats Inc.
+    - ticker: SIFY
+      cik: 0001094324
+      name: SIFY TECHNOLOGIES LTD
+    - ticker: SJ
+      cik: '0001753673'
+      name: Scienjoy Holding Corp
+    - ticker: SKLZ
+      cik: 0001801661
+      name: Skillz Inc.
+    - ticker: SLE
+      cik: '0001621672'
+      name: Super League Enterprise, Inc.
+    - ticker: SLMT
+      cik: 0001939965
+      name: Brera Holdings PLC
+    - ticker: SNAL
+      cik: 0001886894
+      name: Snail, Inc.
+    - ticker: SOGP
+      cik: 0001783407
+      name: Sound Group Inc.
+    - ticker: SOHU
+      cik: '0001734107'
+      name: Sohu.com Ltd
+    - ticker: SOPA
+      cik: 0001817511
+      name: SOCIETY PASS INCORPORATED.
+    - ticker: SSTK
+      cik: 0001549346
+      name: Shutterstock, Inc.
+    - ticker: STFS
+      cik: '0002003061'
+      name: Star Fashion Culture Holdings Ltd
+    - ticker: STGW
+      cik: 0000876883
+      name: Stagwell Inc
+    - ticker: STRZ
+      cik: 0000929351
+      name: STARZ ENTERTAINMENT CORP /CN/
+    - ticker: SWAG
+      cik: 0001872525
+      name: Stran & Company, Inc.
+    - ticker: TBH
+      cik: 0001903595
+      name: Brag House Holdings, Inc.
+    - ticker: TBLA
+      cik: 0001840502
+      name: Taboola.com Ltd.
+    - ticker: TC
+      cik: '0001743340'
+      name: Token Cat Ltd
+    - ticker: TDIC
+      cik: 0002041338
+      name: Dreamland Ltd
+    - ticker: TEAD
+      cik: 0001454938
+      name: Teads Holding Co.
+    - ticker: TJGC
+      cik: 0001969928
+      name: TJGC GROUP Ltd
+    - ticker: TNMG
+      cik: 0002013186
+      name: TNL Mediagene
+    - ticker: TOON
+      cik: 0001355848
+      name: Kartoon Studios, Inc.
+    - ticker: TRVG
+      cik: 0001683825
+      name: trivago N.V.
+    - ticker: TZOO
+      cik: '0001133311'
+      name: TRAVELZOO
+    - ticker: UPWK
+      cik: '0001627475'
+      name: UPWORK, INC
+    - ticker: UPXI
+      cik: 0001775194
+      name: UPEXI, INC.
+    - ticker: VBIX
+      cik: 0000797542
+      name: Viewbix Inc.
+    - ticker: VSME
+      cik: 0001951294
+      name: VS MEDIA Holdings Ltd
+    - ticker: WB
+      cik: 0001595761
+      name: WEIBO Corp
+    - ticker: WIMI
+      cik: 0001770088
+      name: WiMi Hologram Cloud Inc.
+    - ticker: XHLD
+      cik: 0002030954
+      name: TEN Holdings, Inc.
+    - ticker: YDKG
+      cik: '0001413745'
+      name: Yueda Digital Holding
+    - ticker: YELP
+      cik: '0001345016'
+      name: YELP INC
+    - ticker: ZDGE
+      cik: '0001667313'
+      name: Zedge, Inc.
+    - ticker: ZH
+      cik: 0001835724
+      name: Zhihu Inc.
+    - ticker: ZIP
+      cik: '0001617553'
+      name: ZIPRECRUITER, INC.
+    - ticker: ZNB
+      cik: '0001747661'
+      name: Zeta Network Group
+    - ticker: ACCL
+      cik: 0002038378
+      name: Acco Group Holdings Ltd
+    - ticker: ACTG
+      cik: 0000934549
+      name: ACACIA RESEARCH CORP
+    - ticker: AERT
+      cik: 0001853044
+      name: Aeries Technology, Inc.
+    - ticker: AIHS
+      cik: '0001711012'
+      name: Senmiao Technology Ltd
+    - ticker: ANPA
+      cik: 0002031688
+      name: Rich Sparkle Holdings Ltd
+    - ticker: APT
+      cik: 0000884269
+      name: ALPHA PRO TECH LTD
+    - ticker: ARLO
+      cik: 0001736946
+      name: Arlo Technologies, Inc.
+    - ticker: ATLN
+      cik: 0001605888
+      name: ATLANTIC INTERNATIONAL CORP.
+    - ticker: ATXG
+      cik: '0001650101'
+      name: ADDENTAX GROUP CORP.
+    - ticker: BAER
+      cik: 0001941536
+      name: Bridger Aerospace Group Holdings, Inc.
+    - ticker: BBSI
+      cik: 0000902791
+      name: BARRETT BUSINESS SERVICES INC
+    - ticker: BEEP
+      cik: 0001847874
+      name: Mobile Infrastructure Corp
+    - ticker: BGSF
+      cik: 0001474903
+      name: BGSF, INC.
+    - ticker: BKYI
+      cik: 0001019034
+      name: BIO KEY INTERNATIONAL INC
+    - ticker: BOC
+      cik: 0001494582
+      name: BOSTON OMAHA Corp
+    - ticker: BUUU
+      cik: '0002047273'
+      name: BUUU Group Ltd
+    - ticker: BWMN
+      cik: 0001847590
+      name: Bowman Consulting Group Ltd.
+    - ticker: CASS
+      cik: 0000708781
+      name: CASS INFORMATION SYSTEMS INC
+    - ticker: CBZ
+      cik: 0000944148
+      name: CBIZ, Inc.
+    - ticker: CDRE
+      cik: 0001860543
+      name: Cadre Holdings, Inc.
+    - ticker: CIGL
+      cik: 0002001794
+      name: Concorde International Group Ltd.
+    - ticker: CIIT
+      cik: 0001557798
+      name: Tianci International, Inc.
+    - ticker: CRAI
+      cik: '0001053706'
+      name: CRA INTERNATIONAL, INC.
+    - ticker: CRESY
+      cik: 0001034957
+      name: CRESUD INC
+    - ticker: CTOS
+      cik: 0001709682
+      name: Custom Truck One Source, Inc.
+    - ticker: CXW
+      cik: 0001070985
+      name: CoreCivic, Inc.
+    - ticker: CYRX
+      cik: '0001124524'
+      name: Cryoport, Inc.
+    - ticker: DEVS
+      cik: 0001854480
+      name: DevvStream Corp.
+    - ticker: DFNS
+      cik: 0001787518
+      name: T3 Defense Inc.
+    - ticker: DFSC
+      cik: 0001889823
+      name: DEFSEC Technologies Inc.
+    - ticker: DGNX
+      cik: 0002010499
+      name: Diginex Ltd
+    - ticker: DLHC
+      cik: 0000785557
+      name: DLH Holdings Corp.
+    - ticker: EGG
+      cik: 0001982961
+      name: ENIGMATIG LTD
+    - ticker: EHGO
+      cik: 0001879754
+      name: EShallGo Inc.
+    - ticker: ESP
+      cik: '0000033533'
+      name: ESPEY MFG & ELECTRONICS CORP
+    - ticker: EVI
+      cik: '0000065312'
+      name: EVI INDUSTRIES, INC.
+    - ticker: EVLV
+      cik: 0001805385
+      name: Evolv Technologies Holdings, Inc.
+    - ticker: FA
+      cik: '0001210677'
+      name: FIRST ADVANTAGE CORP
+    - ticker: FBYD
+      cik: 0001937987
+      name: Falcon's Beyond Global, Inc.
+    - ticker: FOFO
+      cik: 0002060083
+      name: Hang Feng Technology Innovation Co., Ltd.
+    - ticker: FORR
+      cik: '0001023313'
+      name: FORRESTER RESEARCH, INC.
+    - ticker: GFAI
+      cik: 0001804469
+      name: Guardforce AI Co., Ltd.
+    - ticker: GLXG
+      cik: 0001905920
+      name: Galaxy Payroll Group Ltd
+    - ticker: GRNQ
+      cik: 0001597846
+      name: Greenpro Capital Corp.
+    - ticker: HHS
+      cik: 0000045919
+      name: HARTE HANKS INC
+    - ticker: HQI
+      cik: '0001140102'
+      name: HireQuest, Inc.
+    - ticker: HTZ
+      cik: 0001657853
+      name: HERTZ GLOBAL HOLDINGS, INC
+    - ticker: HURN
+      cik: 0001289848
+      name: Huron Consulting Group Inc.
+    - ticker: ICFI
+      cik: '0001362004'
+      name: ICF International, Inc.
+    - ticker: INTJ
+      cik: 0001916416
+      name: Intelligent Group Ltd
+    - ticker: INVE
+      cik: '0001036044'
+      name: Identiv, Inc.
+    - ticker: IPDN
+      cik: 0001546296
+      name: Professional Diversity Network, Inc.
+    - ticker: ISSC
+      cik: 0000836690
+      name: INNOVATIVE SOLUTIONS & SUPPORT INC
+    - ticker: IVDA
+      cik: 0001397183
+      name: Iveda Solutions, Inc.
+    - ticker: JLHL
+      cik: 0002007846
+      name: Julong Holding Ltd
+    - ticker: JOB
+      cik: '0000040570'
+      name: GEE Group Inc.
+    - ticker: KE
+      cik: '0001606757'
+      name: Kimball Electronics, Inc.
+    - ticker: KELYA
+      cik: '0000055135'
+      name: KELLY SERVICES INC
+    - ticker: KFRC
+      cik: 0000930420
+      name: KFORCE INC
+    - ticker: LICN
+      cik: 0001876766
+      name: Lichen International Ltd
+    - ticker: LNKS
+      cik: 0001972074
+      name: Linkers Industries Ltd
+    - ticker: LZ
+      cik: 0001286139
+      name: LEGALZOOM.COM, INC.
+    - ticker: MAN
+      cik: 0000871763
+      name: ManpowerGroup Inc.
+    - ticker: MEG
+      cik: '0001643615'
+      name: Montrose Environmental Group, Inc.
+    - ticker: MG
+      cik: '0001436126'
+      name: Mistras Group, Inc.
+    - ticker: MHH
+      cik: '0001437226'
+      name: Mastech Digital, Inc.
+    - ticker: MIMI
+      cik: 0001998560
+      name: Mint Inc Ltd
+    - ticker: MRLN
+      cik: 0002028707
+      name: Merlin, Inc.
+    - ticker: NIXX
+      cik: '0001462223'
+      name: Nixxy, Inc.
+    - ticker: NSP
+      cik: '0001000753'
+      name: INSPERITY, INC.
+    - ticker: NTIP
+      cik: 0001065078
+      name: NETWORK-1 TECHNOLOGIES, INC.
+    - ticker: NVRI
+      cik: 0000045876
+      name: ENVIRI Corp
+    - ticker: PBI
+      cik: 0000078814
+      name: PITNEY BOWES INC /DE/
+    - ticker: PMAX
+      cik: 0002012096
+      name: Powell Max Ltd
+    - ticker: PMEC
+      cik: 0001891944
+      name: Primech Holdings Ltd
+    - ticker: PPHC
+      cik: 0001903508
+      name: Public Policy Holding Company, Inc.
+    - ticker: PRG
+      cik: 0001808834
+      name: PROG Holdings, Inc.
+    - ticker: RCAT
+      cik: 0000748268
+      name: Red Cat Holdings, Inc.
+    - ticker: RCMT
+      cik: 0000700841
+      name: RCM TECHNOLOGIES, INC.
+    - ticker: RFIL
+      cik: '0000740664'
+      name: R F INDUSTRIES LTD
+    - ticker: RGP
+      cik: 0001084765
+      name: RESOURCES CONNECTION, INC.
