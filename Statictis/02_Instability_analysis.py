@@ -29,6 +29,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from scipy import stats
+from scipy.special import expit
 from sklearn.linear_model import LogisticRegression
 
 warnings.filterwarnings("ignore")
@@ -41,7 +42,7 @@ try:
     STATSMODELS_AVAILABLE = True
 except ImportError:
     STATSMODELS_AVAILABLE = False
-    print("WARNING: statsmodels not installed. Inverted‑U test will report coefficients only (no p‑values).")
+    print("WARNING: statsmodels not installed. Using Wald test (Fisher Information).")
 
 # =============================================================================
 # CONFIGURATION CONSTANTS
@@ -244,7 +245,7 @@ def block2a_rssi_controlled_by_b(panel: pd.DataFrame) -> pd.DataFrame:
         plt.ylabel("4‑Quarter Collapse Rate", fontsize=12)
         plt.title("Collapse Rate by RSSI Level (High B Only)", fontsize=14)
         plt.tight_layout()
-        plt.savefig(FIGURE_DIR / "T2_RSSI_controlled_by_B.png", dpi=150)
+        plt.savefig(FIGURE_DIR / "T2_RSSI_controlled_by_B.png", dpi=300)
         plt.close()
 
     return rates
@@ -287,7 +288,7 @@ def block2b_joint_matrix_b_rssi(panel: pd.DataFrame) -> Dict:
     plt.ylabel("B Quintile", fontsize=12)
     plt.title("Collapse Rate: Joint B × RSSI Distribution", fontsize=14)
     plt.tight_layout()
-    plt.savefig(FIGURE_DIR / "T2_heatmap_B_RSSI.png", dpi=150)
+    plt.savefig(FIGURE_DIR / "T2_heatmap_B_RSSI.png", dpi=300)
     plt.close()
 
     # Extract values for B5 (highest B quintile)
@@ -317,7 +318,7 @@ def block2b_joint_matrix_b_rssi(panel: pd.DataFrame) -> Dict:
 def block2c_markov_direction(panel: pd.DataFrame) -> pd.DataFrame:
     """
     Compute one‑quarter transition probabilities from C2/C3/C4 to collapse
-    (C1/C6) versus sustained speculative states (C3/C4), stratified by RSSI level.
+    (C1/C6) versus sustained speculative states (C3/C4), strapngied by RSSI level.
 
     Parameters
     ----------
@@ -409,7 +410,7 @@ def block2d_window_by_b_rssi(panel: pd.DataFrame) -> pd.DataFrame:
         plt.ylabel("4‑Quarter Collapse Rate", fontsize=12)
         plt.title("Window Collapse Rate: High B × RSSI", fontsize=14)
         plt.tight_layout()
-        plt.savefig(FIGURE_DIR / "T2_window_highB_RSSI.png", dpi=150)
+        plt.savefig(FIGURE_DIR / "T2_window_highB_RSSI.png", dpi=300)
         plt.close()
 
     return rates
@@ -424,7 +425,8 @@ def block2e_inverted_u_test(panel: pd.DataFrame) -> Optional[Dict]:
     interaction B × RSSI. A negative and significant coefficient on RSSI²
     supports the inverted‑U hypothesis.
 
-    Uses statsmodels if available; otherwise falls back to sklearn (no p‑values).
+    Uses statsmodels if available; otherwise falls back to sklearn + Wald test
+    (Fisher Information) computed with numpy/scipy.
 
     Parameters
     ----------
@@ -450,9 +452,9 @@ def block2e_inverted_u_test(panel: pd.DataFrame) -> Optional[Dict]:
     y = df["collapse_4Q"]
 
     if STATSMODELS_AVAILABLE:
-        X = sm.add_constant(X)
+        X_sm = sm.add_constant(X)
         try:
-            model = sm.Logit(y, X).fit(disp=0)
+            model = sm.Logit(y, X_sm).fit(disp=0)
             coef = model.params
             pvals = model.pvalues
             results = {
@@ -470,21 +472,56 @@ def block2e_inverted_u_test(panel: pd.DataFrame) -> Optional[Dict]:
         except Exception as e:
             results = {"error": str(e)}
     else:
-        model = LogisticRegression(penalty=None, solver="lbfgs", max_iter=1000)
+        # Use sklearn + Wald test (Fisher Information) – no statsmodels needed
+        from scipy import stats as sp_stats
+
+        model = LogisticRegression(C=1e9, solver="lbfgs", max_iter=1000)
         model.fit(X, y)
-        coef = model.coef_[0]
+        obs_coef = model.coef_[0]          # [B, RSSI, RSSI_sq, B_x_RSSI]
+        intercept = model.intercept_[0]
+
+        # Add intercept column for full design matrix
+        X_arr = X.values
+        n, k = X_arr.shape
+        X_full = np.hstack([np.ones((n, 1)), X_arr])   # shape (n, k+1)
+        full_coef = np.concatenate([[intercept], obs_coef])
+
+        # Predicted probabilities
+        p_hat = expit(X_full @ full_coef)
+        p_hat = np.clip(p_hat, 1e-10, 1 - 1e-10)
+
+        # Fisher Information Matrix → variance-covariance matrix
+        W = p_hat * (1 - p_hat)
+        XtWX = X_full.T @ (X_full * W[:, None])
+        try:
+            cov = np.linalg.inv(XtWX)
+            se = np.sqrt(np.diag(cov))
+        except np.linalg.LinAlgError:
+            se = np.full(k + 1, np.nan)
+
+        # Wald z-scores and two-sided p-values
+        z = full_coef / se
+        p_vals = 2 * (1 - sp_stats.norm.cdf(np.abs(z)))
+
+        # McFadden Pseudo R²
+        ll_model = np.sum(
+            y * np.log(p_hat) + (1 - y) * np.log(1 - p_hat)
+        )
+        p_null = y.mean()
+        ll_null = (
+            y.sum() * np.log(p_null + 1e-15) +
+            (len(y) - y.sum()) * np.log(1 - p_null + 1e-15)
+        )
+        pseudo_r2 = 1 - (ll_model / ll_null)
+
         results = {
-            "coef_B": coef[0],
-            "coef_RSSI": coef[1],
-            "coef_RSSI_sq": coef[2],
-            "coef_BxRSSI": coef[3],
-            "p_B": np.nan,
-            "p_RSSI": np.nan,
-            "p_RSSI_sq": np.nan,
-            "p_BxRSSI": np.nan,
-            "pseudo_r2": np.nan,
-            "n_obs": len(df),
-            "warning": "statsmodels not available, p‑values not computed",
+            "coef_B":       obs_coef[0], "p_B":       p_vals[1],
+            "coef_RSSI":    obs_coef[1], "p_RSSI":    p_vals[2],
+            "coef_RSSI_sq": obs_coef[2], "p_RSSI_sq": p_vals[3],
+            "coef_BxRSSI":  obs_coef[3], "p_BxRSSI":  p_vals[4],
+            "pseudo_r2":    pseudo_r2,
+            "n_obs":        len(df),
+            "note":         "Wald test (Fisher Information), no statsmodels needed",
         }
 
     pd.DataFrame([results]).to_csv(TABLE_DIR / "T2_inverted_U_logit.csv", index=False)
@@ -572,13 +609,26 @@ def generate_academic_report(panel: pd.DataFrame, results: Dict) -> None:
             f.write(f"  RSSI              : {res_e.get('coef_RSSI', np.nan):.4f} (p = {res_e.get('p_RSSI', np.nan):.4f})\n")
             f.write(f"  RSSI²             : {res_e.get('coef_RSSI_sq', np.nan):.4f} (p = {res_e.get('p_RSSI_sq', np.nan):.4f})\n")
             f.write(f"  B × RSSI          : {res_e.get('coef_BxRSSI', np.nan):.4f} (p = {res_e.get('p_BxRSSI', np.nan):.4f})\n")
-            if "warning" in res_e:
-                f.write(f"  NOTE: {res_e['warning']}\n")
-            if res_e.get("coef_RSSI_sq", 0) < 0 and res_e.get("p_RSSI_sq", 1) < 0.05:
-                f.write("\nInterpretation: The negative and significant RSSI² coefficient supports\n")
-                f.write("the inverted‑U hypothesis — collapse risk rises then falls with RSSI.\n")
+            if "note" in res_e:
+                f.write(f"  NOTE: {res_e['note']}\n")
+
+            # Correct interpretation of inverted-U shape
+            coef_r  = res_e.get("coef_RSSI", 0.0)
+            coef_r2 = res_e.get("coef_RSSI_sq", 0.0)
+            p_r2    = res_e.get("p_RSSI_sq", 1.0)
+
+            if coef_r2 < 0 and p_r2 < 0.05:
+                peak = -coef_r / (2 * coef_r2) if coef_r2 != 0 else float('nan')
+                f.write(f"\n  Peak of parabola at RSSI = {peak:.2f}\n")
+                if peak < 0 or peak > 5:
+                    f.write("  Interpretation: Both linear and quadratic RSSI coefficients are negative.\n")
+                    f.write(f"  Peak lies outside the observed RSSI range (RSSI = {peak:.1f}).\n")
+                    f.write("  No inverted‑U relationship in the positive RSSI range.\n")
+                    f.write("  Bifurcation evidence rests on transition matrix results (Block 2C).\n")
+                else:
+                    f.write("  Interpretation: Inverted‑U hypothesis supported within observed RSSI range.\n")
             else:
-                f.write("\nInterpretation: No statistically significant inverted‑U shape detected.\n")
+                f.write("\n  Interpretation: No statistically significant inverted‑U shape detected.\n")
         else:
             f.write("No data.\n")
 
